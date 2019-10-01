@@ -20,4 +20,5 @@ Usage
  exception if the file does not exist. By default(`False`) the file is
  created.
 
- All values have to be enclosed in double or single quotes.
+ Comments must be seperated by at least a single space or this won't work. 
+ Also enclose your values in double or single quotes. Just in case.
