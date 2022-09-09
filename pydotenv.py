@@ -34,7 +34,7 @@ class Environment:
         for line in environment:
             if '=' in line and not line.strip().startswith('#'):
                 key, value = line.split('=')
-                value = value.split('#')[0].strip()
+                value = value.split(' ')[0].strip()
                 result.append((key, value))
         return result
 
